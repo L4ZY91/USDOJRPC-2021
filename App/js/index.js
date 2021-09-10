@@ -27,7 +27,7 @@ xui.Class('App', 'xui.Module',{
                 .setTop("22.095238095238095em")
                 .setWidth("52.95238095238095em")
                 .setHeight("23.847619047619048em")
-                .setHtml("<a href=\"https://usdojrpc.bubbleapps.io/\">https://usdojrpc.bubbleapps.io/</a>")
+                .setHtml("<br>")
             );
             
             return children;
