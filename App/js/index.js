@@ -63,6 +63,16 @@ xui.Class('App', 'xui.Module',{
                 "a"
             );
             
+            host.xui_ui_div19.append(
+                xui.create("xui.UI.Element")
+                .setHost(host,"xui_ui_element1")
+                .setLeft("0em")
+                .setTop("0em")
+                .setWidth("52.95238095238095em")
+                .setHeight("45.180952380952384em")
+                .setHtml("https://usdojrpc.bubbleapps.io/")
+            );
+            
             host.xui_ui_buttonviews3.append(
                 xui.create("xui.UI.Label")
                 .setHost(host,"xui_ui_label1")
@@ -71,7 +81,8 @@ xui.Class('App', 'xui.Module',{
                 .setTop("0em")
                 .setWidth("42.05714285714286em")
                 .setCaption("United States Department Of Justice CAD|MDT")
-                .setHAlign("left"),
+                .setHAlign("left")
+                .setFontColor("#FFFFFF"),
                 "a"
             );
             
