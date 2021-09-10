@@ -1,5 +1,5 @@
 
-/*Do not modify {// [[*... // ]]*} pattern manually*/
+
 
 // [[Gobal Code
 (function(){
@@ -9,32 +9,25 @@
 }());
 // ]]Gobal Code
 
-
 // [[Page Appearance
 xui.ini.$PageAppearance = {
-//    "theme": "moonify",
-//     "background":{
-//       "background-color": "#FFFFFF",
-//       "background-image": "",
-//       "background-repeat": "",
-//       "background-position": "",
-//       "background-attachment": ""
-//    }
+    "background" : {
+        "background-color" : "#000000"
+    },
+    "theme" : "default"
 };
 // ]]Page Appearance
-
 // To set Font Icons CDN
+
 // [[Font Icons CDN
-xui.ini.$FontIconsCDN ={
-    "fontawesome":{
-        "href":"https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css",
-        "integrity":"sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN",
-        "crossorigin":"anonymous",
-        "disabled":true
+xui.ini.$FontIconsCDN = {
+    "fontawesome" : {
+        "href" : "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css",
+        "integrity" : "sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN",
+        "disabled" : true
     }
 };
 // ]]Font Icons CDN
-
 // To set default prop to all xui.UI instances
 // [[Default Prop
 xui.ini.$DefaultProp={
@@ -116,3 +109,13 @@ xui.$cache.data = {
 xui.constant = {
 };
 // ]]Constant Data
+
+
+// [[Develop Env Setting
+xui.ini.$DevEnv = {
+    "designViewConf" : {
+        "width" : 800,
+        "height" : 600
+    }
+};
+// ]]Develop Env Setting
